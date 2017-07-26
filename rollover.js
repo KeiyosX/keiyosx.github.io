@@ -1,4 +1,4 @@
-var gallery = ["ahmadPictures/picture0.jpg","ahmadPictures/picture1.jpg","ahmadPictures/picture2.jpg","ahmadPictures/picture3.jpg","ahmadPictures/picture4.jpg","ahmadPictures/picture5.jpg"];
+var gallery = ["Ahmad Pictures/picture0.jpg","Ahmad Pictures/picture1.jpg","Ahmad Pictures/picture2.jpg","Ahmad Pictures/picture3.jpg","Ahmad Pictures/picture4.jpg","Ahmad Pictures/picture5.jpg"];
 
 function fillGallery(){
 	for(var i=0; i<gallery.length; i++){
@@ -9,7 +9,7 @@ function fillGallery(){
 }
 
 function showInMain(num){
-	var imageSource = "ahmadPictures/picture" + num + ".jpg";
+	var imageSource = "Ahmad Pictures/picture" + num + ".jpg";
 	document.getElementById('mainImage').src = imageSource;
 	return false;
 }
